@@ -1,1 +1,36 @@
-
+<p>&nbsp;</p>
+<div>
+<div>
+<div>
+<h1 align="center"><span style="color: #ff0000;"><strong>Music Genre Classifier</strong></span></h1>
+<h2 align="center">This is for those who like music!</h2>
+</div>
+</div>
+</div>
+<div>
+<section>
+<div>
+<h3 align="center">Enter all the parameters:</h3>
+<form action="/predict" method="POST">
+<div style="text-align: center;">
+<div style="text-align: justify; padding-left: 120px;" align="center"><label for="acousticness">Enter Acousticness</label> <input name="acousticness" required="" type="acousticness" placeholder="Example: 0.974758" /></div>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<div style="text-align: justify; padding-left: 120px;"><label for="danceability">Enter Danceability</label> <input name="danceability" required="" type="danceability" placeholder="Example: 0.33467" /></div>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<div style="text-align: justify; padding-left: 120px;"><label for="energy">Enter Energy</label> <input name="energy" required="" type="energy" placeholder="Example: 0.17865" /></div>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<div style="text-align: justify; padding-left: 120px;"><label for="instrumentalness">Enter Instrumentalness</label> <input name="instrumentalness" required="" type="instrumentalness" placeholder="Example: 0.953768" /></div>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<div style="text-align: justify; padding-left: 120px;"><label for="liveness">Enter Liveness</label> <input name="liveness" required="" type="liveness" placeholder="Example: 0.141334" /></div>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<div style="text-align: justify; padding-left: 120px;"><label for="speechiness">Enter Speechiness</label> <input name="speechiness" required="" type="speechiness" placeholder="Example: 0.046785" /></div>&nbsp;&nbsp;&nbsp;&nbsp;
+<div style="text-align: justify; padding-left: 120px;"><label for="tempo">Enter Tempo</label> <input name="tempo" required="" type="tempo" placeholder="Example: 90.32" /></div>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<div style="text-align: justify; padding-left: 120px;"><label for="valence">Enter Valence</label> <input name="valence" required="" type="valence" placeholder="Example: 0.03567" /></div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br /><br /><button type="submit">Predict</button></div>
+</form></div>&nbsp;&nbsp;&nbsp;&nbsp;
+<div>
+<h4 align="center"><strong>{{predicted_name}}</strong></h4>
+</div>
+</section>
+</div>
